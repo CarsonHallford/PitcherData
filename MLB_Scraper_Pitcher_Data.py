@@ -6,7 +6,7 @@ from api_scraper import MLB_Scrape
 
 # Set display options to print all columns without truncation
 pd.set_option("display.max_columns", None)  # Ensure all columns are displayed
-pd.set_option("display.max_rows", None)  # Display all rows, be cautious with large DataFrames
+pd.set_option("display.max_rows", None)  # Display all rows
 pd.set_option("display.width", None)  # Remove column width limit
 
 y0 = 50  # Release y-position (feet)
